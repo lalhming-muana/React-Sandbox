@@ -1,10 +1,12 @@
+import React, {Fragment, Component} from 'react';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <Fragment>
      <h1>Hello from react</h1>
-    </div>
+     <h2>Goodbye</h2>
+    </Fragment>
   );
 }
 
