@@ -4,16 +4,13 @@ import './App.css';
 function App() {
   const name ='Joan of ark'
 
-  const loading= false;
-  if(loading){
-    return <h4>Loading ....</h4>
-  }
-
+  const loading= true;
+  
   return (
-    <Fragment>
-     <h1>Hello from react</h1>
-     <h2>Test page {name}</h2>
-    </Fragment>
+    <div>
+     {loading? <h4>Loading ....</h4> : <h2>Hemi hi page ani {name}</h2> }
+     
+    </div>
   );
 }
 
